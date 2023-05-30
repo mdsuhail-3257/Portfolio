@@ -923,7 +923,7 @@ body {
 }
 .work--lockup .slider--item-image {
   width: 150px;
-  height: 150px;
+  height: 300px;
   margin: 0 auto;
   border-radius: 50%;
   overflow: hidden;
@@ -937,6 +937,7 @@ body {
   -webkit-transform: translateY(-50%);
   transform: translateY(-50%);
   display: block;
+  z-index: 0;
 }
 .work--lockup .slider--item-right {
   top: 50%;
@@ -944,6 +945,7 @@ body {
   -webkit-transform: translateY(-50%);
   transform: translateY(-50%);
   display: block;
+  z-index: 0;
 }
 .work--lockup .slider--item-center {
   position: relative;
@@ -952,6 +954,7 @@ body {
   -webkit-transform: translateX(-50%);
   transform: translateX(-50%);
   display: block;
+  z-index: 1;
 }
 .work--lockup .slider--item-center a {
   color: #fff;
@@ -962,10 +965,11 @@ body {
 }
 .work--lockup .slider--item-center .slider--item-description {
   display: block;
+  z-index: 9999;
 }
 .work--lockup .slider--item-center .slider--item-image {
   width: 300px;
-  height: 300px;
+  height: 400px;
 }
 .work--lockup .slider--next,
 .work--lockup .slider--prev {
@@ -1003,11 +1007,11 @@ body {
 @media (max-width: 900px) {
   .work--lockup .slider--item-image {
     width: 120px;
-    height: 120px;
+    height: 300px;
   }
   .work--lockup .slider--item-center .slider--item-image {
     width: 240px;
-    height: 240px;
+    height: 400px;
   }
   .work--lockup .slider--next,
   .work--lockup .slider--prev {
@@ -1019,12 +1023,12 @@ body {
     width: 75%;
   }
   .work--lockup .slider--item-image {
-    width: 90px;
-    height: 90px;
-  }
-  .work--lockup .slider--item-center .slider--item-image {
     width: 190px;
     height: 190px;
+  }
+  .work--lockup .slider--item-center .slider--item-image {
+    width: 210px;
+    height: 400px;
   }
   .work--lockup .slider--next,
   .work--lockup .slider--prev {
@@ -1033,7 +1037,16 @@ body {
 }
 @media (max-width: 600px) {
   .work--lockup .slider {
-    width: auto;
+    width: 100%;
+  }
+  .work--lockup .slider--item-image {
+    width: 190px;
+    height: 300px;
+  }
+  .work--lockup .slider--item-center .slider--item-image {
+    width: 190px;
+    height: 400px;
+    z-index: 1;
   }
   .work--lockup .slider--item-left,
   .work--lockup .slider--item-right {

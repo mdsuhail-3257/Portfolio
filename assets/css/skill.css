@@ -436,11 +436,12 @@ footer {
 
 /* Teams */
 .teams {
-    background-color: #111;
+    background-color: none;
 }
 
 .teams .carousel .card {
     background: #1e1e1e;
+    box-shadow: 0px 0px 12px red;
     border-radius: 10px;
     padding: 25px 35px;
     text-align: center;
@@ -448,7 +449,7 @@ footer {
 }
 
 .teams .carousel .card:hover {
-    background-color: rgb(236, 127, 1);
+    background-color: #2734FF;
     transition: all ease-in-out 200ms;
 }
 
