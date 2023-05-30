@@ -1236,7 +1236,7 @@ body {
 }
 @media (max-width: 767px) {
   .about--banner {
-    height: 305px;
+    height: 900px;
   }
   .about--banner::before {
     top: 0;
@@ -1368,12 +1368,27 @@ body {
   margin: 0 auto 25px auto;
 }
 .contact--lockup .modal--options li:nth-child(1) {
-  background-color: #1769ff;
+  background-color: #3a17ff;
 }
 .contact--lockup .modal--options li:nth-child(2) {
   background-color: #ea4c89;
 }
 .contact--lockup .modal--options li:nth-child(3) {
+  background-color: #36a01b;
+}
+.contact--lockup .modal--options li:nth-child(4) {
+  background-color: #34025c;
+}
+.contact--lockup .modal--options li:nth-child(5) {
+  background-color: #0c7797;
+}
+.contact--lockup .modal--options li:nth-child(6) {
+  background-color: #ca1818;
+}
+.contact--lockup .modal--options li:nth-child(7) {
+  background-color: #636d08;
+}
+.contact--lockup .modal--options li:nth-child(8) {
   margin-bottom: 0;
   background-color: #0f33ff;
   text-transform: uppercase;
