@@ -1028,3 +1028,19 @@ footer span a:hover {
         margin-left: 0;
     }
 }
+
+.cv{
+    color: white;
+}
+
+.cv:hover{
+    color: aliceblue;
+}
+
+.cv:visited{
+    color: #fff;
+}
+
+.cv:active{
+    color: #fff;
+}
