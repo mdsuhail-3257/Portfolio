@@ -705,7 +705,7 @@ body {
 .intro--options > a {
   max-width: 250px;
   text-decoration: none;
-  color: #282828;
+  color: rgb(134, 131, 128);
   -webkit-transition: color 0.2s ease-in-out;
   transition: color 0.2s ease-in-out;
 }
@@ -767,6 +767,7 @@ body {
   }
   .intro--banner img {
     width: 250px;
+    opacity: 50%;
     z-index: -7;
   }
 }
