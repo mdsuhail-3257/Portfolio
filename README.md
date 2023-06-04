@@ -45,7 +45,7 @@ To set up this portfolio website locally, follow these steps:
 
 ## Usage
 
-Feel free to explore the website and navigate through the different sections to learn more about me, my projects, and my skills. The website is designed to be intuitive and user-friendly.
+Feel free to explore the website and navigate through the different sections to learn more about me, my projects, and my skills. The website is designed to be intuitive and user-friendly. Don't copy and don't violate copyright ©️ licence statements
 
 ## Contributing
 
