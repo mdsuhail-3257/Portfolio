@@ -53,6 +53,6 @@ Contributions to this portfolio website are currently not open. However, if you 
 
 ## License
 
-The content of this portfolio website is licensed under the [MIT License](LICENSE.md). You are free to use and modify the code, but please provide attribution by linking back to the original repository.
+The content of this portfolio website is licensed under the [GPL v3.0 License](LICENSE.md). Don't try to copy without approval, Read all the Licence Copyright ©️ terms properly & provide attribution by linking back to the original repository.
 
 
