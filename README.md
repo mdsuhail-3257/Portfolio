@@ -55,3 +55,4 @@ Contributions to this portfolio website are currently not open. However, if you 
 
 The content of this portfolio website is licensed under the [MIT License](LICENSE.md). You are free to use and modify the code, but please provide attribution by linking back to the original repository.
 
+
